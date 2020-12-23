@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Huynh12345678/React_1/static/css/main.e8236ba8.chunk.css",
+    "main.js": "/Huynh12345678/React_1/static/js/main.7dc669cc.chunk.js",
+    "main.js.map": "/Huynh12345678/React_1/static/js/main.7dc669cc.chunk.js.map",
+    "runtime-main.js": "/Huynh12345678/React_1/static/js/runtime-main.f63affc7.js",
+    "runtime-main.js.map": "/Huynh12345678/React_1/static/js/runtime-main.f63affc7.js.map",
+    "static/js/2.504f0a82.chunk.js": "/Huynh12345678/React_1/static/js/2.504f0a82.chunk.js",
+    "static/js/2.504f0a82.chunk.js.map": "/Huynh12345678/React_1/static/js/2.504f0a82.chunk.js.map",
+    "static/js/3.f58fc7b0.chunk.js": "/Huynh12345678/React_1/static/js/3.f58fc7b0.chunk.js",
+    "static/js/3.f58fc7b0.chunk.js.map": "/Huynh12345678/React_1/static/js/3.f58fc7b0.chunk.js.map",
+    "index.html": "/Huynh12345678/React_1/index.html",
+    "static/css/main.e8236ba8.chunk.css.map": "/Huynh12345678/React_1/static/css/main.e8236ba8.chunk.css.map",
+    "static/js/2.504f0a82.chunk.js.LICENSE.txt": "/Huynh12345678/React_1/static/js/2.504f0a82.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f63affc7.js",
+    "static/js/2.504f0a82.chunk.js",
+    "static/css/main.e8236ba8.chunk.css",
+    "static/js/main.7dc669cc.chunk.js"
+  ]
+}
