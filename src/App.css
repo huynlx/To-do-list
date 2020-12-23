@@ -1,0 +1,160 @@
+@import "./css/bootstrap.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.table {
+  border: 1px solid #dee2e6;
+}
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+.table th {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mt-md-0,
+  .my-md-0 {
+    margin-top: 0 !important;
+  }
+  .position{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+    /* padding: 0.75rem 0; */
+  }
+  .table {
+    border: none;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+
+  tr:nth-child(odd) {
+    background: #ccc;
+  }
+
+  .table td {
+    border: none;
+    border-top: 1px solid #b2b9ce;
+    border-left: 1px solid #b2b9ce;
+    border-right: 1px solid #b2b9ce;
+    /* border-bottom: 1px solid #eee; */
+    position: relative;
+    padding-left: 50%;
+    text-align: right;
+  }
+
+  .table td:last-child {
+    /* border: none;
+    border-top:1px solid #eee; */
+    border-bottom: 1px solid #b2b9ce;
+    /* background-color: red; */
+    /* position: relative;
+    padding-left: 50%;
+    vertical-align: middle;
+    text-align: right; */
+  }
+
+  td:before {
+    position: absolute;
+    left: 6px;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+  td:nth-of-type(1):before {
+    content: "STT";
+  }
+  td:nth-of-type(2):before {
+    content: "Tên";
+  }
+  td:nth-of-type(3):before {
+    content: "Điện thoại";
+  }
+  td:nth-of-type(4):before {
+    content: "Quyền";
+  }
+  td:nth-of-type(5):before {
+    content: "Thao tác";
+    top: 30%;
+  }
+}
+
+@media (max-width: 576px) {
+  .w-sm-60 {
+    width: 80%;
+  }
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+}
+
+#editUser {
+  z-index: 1000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.App {
+  text-align: inherit;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
